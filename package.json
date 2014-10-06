@@ -1,0 +1,24 @@
+{
+  "name": "kenburns-canvas2d",
+  "version": "1.0.0",
+  "description": "Ken Burns Effect – canvas 2d implementation",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gre/kenburns-canvas2d"
+  },
+  "keywords": [
+    "kenburns",
+    "canvas2d"
+  ],
+  "author": "Gaëtan Renaudeau",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gre/kenburns-canvas2d/issues"
+  },
+  "homepage": "https://github.com/gre/kenburns-canvas2d",
+  "dependencies": {
+    "kenburns-core": "^1.0.0",
+    "draw-image-normalized": "^0.1.1"
+  }
+}
