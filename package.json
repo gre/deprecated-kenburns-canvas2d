@@ -18,7 +18,6 @@
   },
   "homepage": "https://github.com/gre/kenburns-canvas2d",
   "dependencies": {
-    "kenburns-core": "^1.0.0",
     "draw-image-normalized": "^0.1.1"
   }
 }

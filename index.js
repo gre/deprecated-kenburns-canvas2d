@@ -1,4 +1,3 @@
-var KenBurnsCore = require("kenburns-core");
 var drawImageNormalized = require("draw-image-normalized");
 
 // Canvas 2D implementation
@@ -20,5 +19,5 @@ KenBurnsCanvas2dTrait.prototype = {
   }
 };
 
-module.exports = KenBurnsCore.mixin(KenBurnsCanvas2dTrait);
+module.exports = KenBurnsCanvas2dTrait;
 
