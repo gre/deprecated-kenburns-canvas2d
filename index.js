@@ -7,6 +7,9 @@ function KenBurnsCanvas2dTrait (canvas2d) {
   this.ctx = canvas2d.getContext("2d");
 }
 KenBurnsCanvas2dTrait.prototype = {
+  clamped: true,
+  rgb: [0,0,0],
+
   draw: function (image, rect) {
     var viewport = [ 0, 0, this.canvas.width, this.canvas.height ];
     var ctx = this.ctx;
